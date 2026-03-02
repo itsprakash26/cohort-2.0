@@ -1,0 +1,109 @@
+@font-face {
+    font-family: navbar;
+    src: url(sf-pro-text_semibold.woff2);
+}
+
+@font-face {
+    font-family: apple;
+    src: url(sf-pro-text_bold.woff2);
+}
+
+@font-face {
+    font-family: say;
+    src: url(sf-pro-display_regular.woff2);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#nav h4 {
+    font-size: 15px;
+    font-weight: 100;
+    font-family: navbar;
+}
+
+#apple {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 35px;
+    font-family: apple;
+
+}
+
+#say {
+    font-size: 25px;
+    font-family: say;
+    font-weight: 200;
+    text-align: center;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+#learn{
+   padding: 10px 20px;
+   border-radius: 20px;
+   border: 2px solid #0076DF;
+   font-size: 16px;
+   font-family: say;
+   font-weight: 100;
+   background-color: #0076DF;
+   color: white;
+}
+ #shope {
+    background-color: #F5F5F7;
+    color: blue;
+    border: 1px solid rgb(87, 87, 202);
+     padding: 13px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: say;
+    font-weight: 100;
+}
+#shope:hover{
+    background-color: #0076DF;
+    color: white;
+}
+ #learn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: say;
+    font-weight: 100;
+    background-color: #0076DF;
+    color: white;
+}
+
+
+#img {
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/cl/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
