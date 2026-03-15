@@ -1,0 +1,61 @@
+/* CSS Boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 0.5fr 0.5fr;
+    grid-template-areas: "header header header"
+                        "section1 section2 section3"
+                        "left-section top right-section"
+                        "left-section bottom right-section";
+    gap: 10px;
+    padding: 10px;
+}
+header{
+    grid-area: header;
+    background-color: blue;
+}
+#section1{
+    grid-area: section1;
+    background-color: aqua;
+
+}
+#section2{
+     grid-area: section2;
+    background-color: rgb(40, 52, 52);
+
+}
+#section3{
+     grid-area: section3;
+    background-color: rgb(124, 76, 60);
+
+}
+#left-section{
+    grid-area: left-section;
+    background-color: bisque;
+}
+#right-section{
+    grid-area: right-section;
+    background-color: rgb(37, 31, 22);
+}
+#top{
+    grid-area: top;
+    background-color: darkgoldenrod;
+}
+#bottom{
+    grid-area: bottom;
+    background-color: rgb(51, 184, 11);
+}
