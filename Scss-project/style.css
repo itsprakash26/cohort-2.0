@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  flex-grow: 1;
+  background-color: rgb(63, 10, 10);
+  background-size: cover;
+  background-position: center;
+}
+main section:hover {
+  flex-grow: 2;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background-image: url(img/img1.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(img/img2.png);
+}
+main section:nth-child(3) {
+  background-image: url(img/img3.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(img/img4.png);
+}
+main section:nth-child(5) {
+  background-image: url(img/img5.jpg);
+}/*# sourceMappingURL=style.css.map */
